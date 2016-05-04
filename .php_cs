@@ -57,7 +57,6 @@ $fixers = [
     'single_array_no_trailing_comma',
     'single_blank_line_before_namespace',
     'single_line_after_imports',
-    'single_quote',
     'spaces_before_semicolon',
     'spaces_cast',
     'standardize_not_equal',
