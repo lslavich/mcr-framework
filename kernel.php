@@ -7,9 +7,13 @@ use Symfony\Component\Routing\RouteCollectionBuilder;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
+use Symfony\Bundle\FrameworkBundle\Kernel;
+use Symfony\Bundle\FrameworkBundle\Kernel\MicroKernelTrait;
 
-class AppKernel extends MicroKernel
+class AppKernel
 {
+    use MicroKernelTrait;
+
     public function registerBundles()
     {
         return [];
