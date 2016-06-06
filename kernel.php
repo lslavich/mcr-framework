@@ -33,4 +33,14 @@ class AppKernel
     {
         return new Response('micro');
     }
+
+    public function getCacheDir()
+    {
+        return __DIR__ . '/../var/cache/' . $this->environment;
+    }
+
+    public function getLogDir()
+    {
+        return __DIR__ . '/../var/logs/' . $this->environment;
+    }
 }
