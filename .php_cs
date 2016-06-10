@@ -43,8 +43,6 @@ $fixers = [
     'phpdoc_trim',
     'phpdoc_type_to_var',
     'phpdoc_var_without_name',
-    'remove_leading_slash_use',
-    'remove_lines_between_uses',
     'return',
     'self_accessor',
     'short_array_syntax',
